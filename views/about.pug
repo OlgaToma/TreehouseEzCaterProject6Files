@@ -1,0 +1,41 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1=info.name
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | Hello! My name is Olga - I am a beginner software developer living outside of Boston, MA. My experience is mostly with web development technologies such as HTML and JavaScript. I am learning ReactJS as well as other languages required to be a full-stack software developer. I enjoy coding and hope to continue my learning with a full-time development position in the Boston area. Thanks!
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li Express
+          li NodeJS
+          li ReactJS
+          li SQL
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li=info.phone
+          li=info.email
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href=info.github) GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

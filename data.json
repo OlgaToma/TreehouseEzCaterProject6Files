@@ -1,0 +1,70 @@
+{
+    "info": {
+        "name": "Olga Toma",
+        "phone": "617.935.4768",
+        "email": "olga.v.toma@gmail.com",
+        "github": "https://github.com/OlgaToma"
+    },
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Quote Generator",
+            "description": "My first project was a random quote generator, using JavaScript and CSS to update the quotes being displayed, as well as their background colors",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://olgatoma.github.io/TreehouseEzCaterProject1Files/",
+            "github_link": "https://github.com/OlgaToma/TreehouseEzCaterProject1Files",
+            "image_urls": [
+                "Project1_1.png",
+                "Project1_2.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Paginated Contact List",
+            "description": "This project involved creating a paginated contact list that can be filtered by the user",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://olgatoma.github.io/TreehouseEzCaterProject2Files/",
+            "github_link": "https://github.com/OlgaToma/TreehouseEzCaterProject2Files",
+            "image_urls": [
+                "Project2_1.png",
+                "Project2_2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Dynamic Registration Form",
+            "description": "This project involved creating a dynamic registration form. When the user selected various form elements, the page would dynamically adjust to hide/show additional options. The content and options had to be validated prior to the form allowing submission.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://olgatoma.github.io/TreehouseEzCaterProject3Files/",
+            "github_link": "https://github.com/OlgaToma/TreehouseEzCaterProject3Files",
+            "image_urls": [
+                "Project3_1.png",
+                "Project3_2.png"
+            ]
+        }, 
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "An interactive word game that allows the user to try to guess the hidden phrase. They start with five lives and lose one each time they guess incorrectly.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "npm"],
+            "live_link": "https://olgatoma.github.io/TreehouseEzCaterProject4Files/",
+            "github_link": "https://github.com/OlgaToma/TreehouseEzCaterProject4Files",
+            "image_urls": [
+                "Project4_1.png",
+                "Project4_2.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Startup Employee Directory",
+            "description": "A responsive employee directory that reads sample data from a public API and arranges the response on the page. Clicking an employee entry pops up a modal with additional employee contact details.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "npm", "Public API calls"],
+            "live_link": "https://olgatoma.github.io/TreehouseEzCaterProject5Files/",
+            "github_link": "https://github.com/OlgaToma/TreehouseEzCaterProject5Files",
+            "image_urls": [
+                "Project5_1.png",
+                "Project5_2.png"
+            ]
+        }
+    ]
+}
